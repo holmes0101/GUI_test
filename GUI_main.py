@@ -33,7 +33,7 @@ if __name__ == "__main__":
     args = parse_args()
     ## get test image or test image list(using darknet test.txt)
 
-    classes = ['missile']
+    classes = ['person']
     app = QApplication(sys.argv)
     icon = QIcon("./icon/icon.ico")
     app.setWindowIcon(icon)
